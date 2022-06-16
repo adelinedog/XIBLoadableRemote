@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "XIBLoadablePackage",
+    name: "XIBLoadable",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
-            name: "XIBLoadablePackage",
+            name: "XIBLoadable",
             targets: ["XIBLoadable"]),
     ],
     dependencies: [
